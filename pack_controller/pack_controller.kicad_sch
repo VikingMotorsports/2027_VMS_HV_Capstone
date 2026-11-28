@@ -43,6 +43,46 @@
 				(justify left top)
 			)
 		)
+		(pin "SP1_MOSI" input
+			(at 201.93 34.29 180)
+			(uuid "864b5408-fd76-4d7a-9799-b6245eda14b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_CS" input
+			(at 201.93 38.1 180)
+			(uuid "c0693053-b5ef-45c1-9f1b-7cf8b1682e74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_MISO" input
+			(at 201.93 41.91 180)
+			(uuid "4f1de50f-445a-4849-943a-ef431a68c61f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI1_SCK" input
+			(at 201.93 45.72 180)
+			(uuid "b9cff367-e3b6-4cc8-b4df-5ed79c942dba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "pack_controller"
 				(path "/3b32f7bd-0d31-45f9-b629-5bcfd30884b0"
@@ -133,6 +173,116 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CS1*" input
+			(at 201.93 116.84 180)
+			(uuid "052efd19-bcf2-4710-8343-40b3127ec220")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS2*" input
+			(at 201.93 119.38 180)
+			(uuid "d6662ed0-895c-4124-a858-b6d72d591419")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "isospi1_1" bidirectional
+			(at 236.22 119.38 0)
+			(uuid "9acd3a7f-f95d-4f30-ac98-010aab47d998")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "isospi1_2" bidirectional
+			(at 236.22 121.92 0)
+			(uuid "339bb219-e149-4420-a1df-7429c5629797")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "isospi2_1" bidirectional
+			(at 236.22 124.46 0)
+			(uuid "8933cf11-d0c7-4420-b7b1-cf2ed35e6222")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "isospi2_2" bidirectional
+			(at 236.22 127 0)
+			(uuid "438735f2-d355-4c3b-9bca-02882d91b9fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PICO" input
+			(at 201.93 125.73 180)
+			(uuid "e7b1eb8e-3f4f-451f-a5ea-2d2167684899")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POCI" output
+			(at 201.93 128.27 180)
+			(uuid "f0003eff-521b-495d-a2fb-90741716057c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK" input
+			(at 201.93 123.19 180)
+			(uuid "d71f44d9-6b8f-4301-a62f-f1de64a0ce17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WAKE1" bidirectional
+			(at 201.93 132.08 180)
+			(uuid "9f0c0bb7-1c25-49f9-9078-69ab61a70b85")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WAKE2" bidirectional
+			(at 201.93 134.62 180)
+			(uuid "33081fe3-6f5d-4541-a549-dee8d58eb863")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
